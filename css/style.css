@@ -15,11 +15,25 @@ h1 {
 
 .container {
    text-align:left;
+   margin-left: 0%;
+   margin-right: 0%;
+   word-spacing: 2%;
 }
 div.description {
    background-color:black;
    color: white;
    text-align: left;
+}
+
+div.projects{
+  background-color:black;
+  color: white;
+  text-align: left;
+}
+
+#screenshots {
+  border-radius: 70%;
+  padding-left: 0%;
 }
 .topnav {
   overflow: hidden;
@@ -82,4 +96,4 @@ div.description {
   
 }
 
- 
+#more {display: none;}
