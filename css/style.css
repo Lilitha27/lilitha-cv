@@ -1,16 +1,19 @@
+
+
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 25px;
     background-color: white;
     text-decoration-color: aliceblue;
- 
+    align-content: center;
 }
 
-
 h1 {
-    text-align: left;
+    text-align: center;
    
-
+}
+h2 {
+  text-decoration-line: underline;
 }
 
 .container {
@@ -19,31 +22,31 @@ h1 {
    margin-right: 0%;
    word-spacing: 2%;
 }
-div.description {
-   background-color:black;
-   color: white;
-   text-align: left;
-}
 
-div.projects{
-  background-color:black;
-  color: white;
-  text-align: left;
-}
+ 
+
+
 
 #screenshots {
   border-radius: 70%;
   padding-left: 0%;
 }
+
+div.bg{
+    background-image: url("images_web.jpg");
+}
+
+
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:lightskyblue;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,13 +54,13 @@ div.projects{
 }
 
 .topnav a:hover {
-  background-color:grey;
+  background-color:lightskyblue;
   color: black;
 }
 
 .topnav a.active {
-  background-color:grey;
-  color: white;
+  background-color: lightskyblue;
+  color: black;
 }
 
 .topnav .icon {
@@ -67,7 +70,7 @@ div.projects{
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float:left;
+    float: right;
     display: block;
   }
 }
@@ -85,15 +88,17 @@ div.projects{
     text-align: left;
   }
 }
-#skills {
-    height: 280px;
-    background-color: white;
-    color: black;
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 30px;
-    padding-top: 100px;
+
+ 
+
   
+
+#skills_section img{
+    text-align: center;
+    padding :20px;
+    margin-top: 25px;
+    
 }
 
 #more {display: none;}
+

@@ -1,4 +1,5 @@
-function Navigation() {
+
+  function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -6,6 +7,8 @@ function Navigation() {
       x.className = "topnav";
     }
   }
+
+
   function readmore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -21,4 +24,3 @@ function Navigation() {
       moreText.style.display = "inline";
     }
   }
-  
