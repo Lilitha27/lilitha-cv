@@ -1,4 +1,4 @@
-
+// navigation bar functionality
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -8,7 +8,7 @@
     }
   }
 
-
+// read more button functionality 
   function readmore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
