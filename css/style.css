@@ -33,9 +33,11 @@ h2 {
 }
 
 div.bg{
-    background-image: url("images_web.jpg");
+    background-image: url("web.jpg");
 }
-
+#header {
+  text-align: center;
+}
 
 
 .topnav {
