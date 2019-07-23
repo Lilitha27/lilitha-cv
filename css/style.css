@@ -105,3 +105,18 @@ h2 {
 
 #more {display: none;}
 
+#contact {
+  border: 1px lightskyblue;
+  background-color: lightskyblue;
+}
+#details {
+  display: inline-block;
+  width:50%;
+  border: 1px lightskyblue;
+}
+#me {
+  display: inline-block;
+  width:"200%";
+  height:"440%";
+  border: 1px lightskyblue;
+}
