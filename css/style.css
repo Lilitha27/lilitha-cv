@@ -105,18 +105,17 @@ h2 {
 
 #more {display: none;}
 
-#contact {
-  border: 1px lightskyblue;
-  background-color: lightskyblue;
-}
+
 #details {
   display: inline-block;
   width:50%;
   border: 1px lightskyblue;
+  margin-left: 5%;
 }
 #me {
   display: inline-block;
-  width:"200%";
-  height:"440%";
   border: 1px lightskyblue;
+  border-radius:8px;
+  margin-top:0;
+
 }
