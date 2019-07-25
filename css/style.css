@@ -18,7 +18,7 @@ h2 {
 }
 
 .container {
-   text-align:left;
+   text-align:center;
    margin-left: 0%;
    margin-right: 0%;
    word-spacing: 2%;
@@ -118,4 +118,8 @@ h2 {
   border-radius:8px;
   margin-top:0;
 
+}
+
+#skills_section {
+  text-align: center;
 }
