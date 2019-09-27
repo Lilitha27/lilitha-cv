@@ -1,24 +1,24 @@
 body{
-    background-color: yellow;
+    background-color: pink;
     font-family: 'Source Sans Pro', sans-serif;
 
 }
 #image{
-    background-color: gray;
+    background-color: aliceblue;
     margin-left: 30%;
     margin-top:20%;
-    border-radius: 5%;
+    /* border-radius: 5%; */
 
 }
 p{
-    color: gray;
+    color: aliceblue;
     /* margin-left: 30%; */
    
     font-size:140%;
 
 }
 h2{
-    color: gray;
+    color: aliceblue;
     /* margin-left: 30%; */
     margin-top:20%;
     font-size:180%; 
