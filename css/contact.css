@@ -21,6 +21,7 @@ li{
 #face{
     padding-top: 2%;
     margin-left:40%;
+    border-right:2px solid white;
 }
 /* columns */
 
@@ -30,6 +31,7 @@ li{
 .column {
     float: left;
     width: 45%;
+    
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
