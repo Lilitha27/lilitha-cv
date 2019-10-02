@@ -3,6 +3,24 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
+.button{
+  margin-left:18%;
+  margin-top:2%;
+  padding: 1%;
+  font-size:70%;
+  font-family: 'Homenaje', sans-serif;
+  background-color: aliceblue;
+  color: black;
+}
+.button2{
+  margin-left:35%;
+  margin-top:2%;
+  padding:1%;
+  font-size: 70%;
+  font-family: 'Homenaje', sans-serif;
+  background-color: aliceblue;
+  color: black;
+}
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
@@ -10,15 +28,19 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
+a{
+  color: black;
+  text-decoration-line:none;
+}
 h2 {
-    padding-top: 15%;
+    padding-top: 13%;
     padding-left: 40%;
     font-family: 'Homenaje', sans-serif;
     font-size:350%;
     color: aliceblue ;
     }
 h4{
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 35%;
     font-family: 'Homenaje', sans-serif;
     font-size:350%;
@@ -26,15 +48,15 @@ h4{
 }
 #describe{
    
-    padding-bottom: 20%;
+    /* padding-bottom: 40%; */
     padding-left: 38%;
     font-family: 'Homenaje', sans-serif;
     font-size: 150%;
     color: rgb(240, 248, 255 ,0.6) ; 
 }
 h3{
-    padding-top: 15%;
-  padding-left: 38%;
+    padding-top: 12%;
+  padding-left: 40%;
   font-family: 'Homenaje', sans-serif;
   font-size:350%;
   color: aliceblue ; 

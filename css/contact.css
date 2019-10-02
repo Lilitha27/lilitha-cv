@@ -140,3 +140,30 @@ li{
     }
   }
 
+  @media (max-width:320px) {
+    body{
+        background-color: #FF03A2;
+        color: aliceblue;
+        font-family:'Homenaje', sans-serif;
+    }
+    h1{
+        color: aliceblue;
+        text-align: center;
+        font-size: 350%;
+    }
+    p{
+        color: aliceblue;
+        text-align: left;
+       
+        font-size: 200%;
+    }
+    li{
+      
+        font-size: 200%;
+    }
+    #face{
+        padding-top: 2%;
+        margin-left:20%;
+        border-right:2px solid white;
+    }
+  }

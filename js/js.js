@@ -17,5 +17,19 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 9000); // Change image every 9 seconds
+}
+// arrow animation
+const $icon = document.querySelector('.icon');
+const $arrow = document.querySelector('.arrow');
+
+$icon.onclick = () => {
+  $arrow.animate([
+    {left: '0'},
+    {left: '10px'},
+    {left: '0'}
+  ],{
+    duration: 700,
+    iterations: Infinity
+  });
 }
