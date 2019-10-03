@@ -9,15 +9,26 @@ h1{
   text-align: center;
   font-size: 450%;
 }
-.container{
-  background-color: rgb(240, 248, 255 ,0.6) ;
-  display: flex;
-  height: 50%; 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
-.image{
-  width: 10%;
-  height:5%;
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: aliceblue;
 }
 a{
 color: aliceblue;
@@ -39,6 +50,54 @@ h2{
 p{
    color: aliceblue;
    font-size: 160%;
+}
+body {
+  background-color: #00b894;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 25px;
+  width: 90%;
+  height: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  animation: arrow 700ms linear infinite;
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  top: -12px;
+  right: -8px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+
+.arrow::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  top: 12px;
+  right: -8px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
 }
 /* columns*/
 
