@@ -7,8 +7,15 @@ body{
     background-color: aliceblue;
     margin-left: 30%;
     margin-top:20%;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
     /* border-radius: 5%; */
+}
 
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 1;}
 }
 /* arrow and animation */
 
@@ -20,7 +27,11 @@ a{
   color: aliceblue;
   margin-left:90%;
   margin-top:20%;
+  transition: margin-left 0.5s;
 } 
+#arrow:hover {
+  margin-left: 91%;
+}
 /* 
 #arrow{
   color: aliceblue;
