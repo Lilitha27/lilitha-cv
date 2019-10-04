@@ -119,6 +119,138 @@ h2{
   }
 }
 
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 375px) {
+  .column {
+    width: 100%;
+  }
+  .column1{
+    margin-top:20%;
+    width:80%;
+  }
+  #image{
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-top:20%;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    /* border-radius: 5%; */
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 1;}
+}
+  h2{
+    width:80%;
+  }
+  a{
+    color: aliceblue;
+    text-decoration-line: none;
+  }
+  #arrow{
+    color: aliceblue;
+    margin-left:90%;
+    margin-top:150%;
+    transition: margin-left 0.5s;
+  } 
+  #arrow:hover {
+    margin-left: 91%;
+  }
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 425px) {
+  .column {
+    width: 100%;
+  }
+  .column1{
+    margin-top:20%;
+    width:80%;
+  }
+  #image{
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-top:20%;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    /* border-radius: 5%; */
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 1;}
+}
+  h2{
+    width:80%;
+    margin-left:8%;
+  }
+  a{
+    color: aliceblue;
+    text-decoration-line: none;
+  }
+  #arrow{
+    color: aliceblue;
+    margin-left:90%;
+    margin-top:210%;
+    transition: margin-left 0.5s;
+  } 
+  #arrow:hover {
+    margin-left: 91%;
+  }
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+  .column1{
+    margin-top:20%;
+    width:80%;
+  }
+  #image{
+    background-color: aliceblue;
+    margin-left: 45%;
+    margin-top:20%;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    /* border-radius: 5%; */
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 1;}
+}
+  h2{
+    width:80%;
+    margin-left: 10%;
+  }
+  a{
+    color: aliceblue;
+    text-decoration-line: none;
+  }
+  #arrow{
+    color: aliceblue;
+    margin-left:90%;
+    margin-top:40%;
+    transition: margin-left 0.5s;
+  } 
+  #arrow:hover {
+    margin-left: 91%;
+  }
+}
+
+
+
+
  /* navbar */
 .nav {
   height: 50px;
