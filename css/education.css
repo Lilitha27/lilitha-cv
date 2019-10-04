@@ -27,6 +27,9 @@ a{
 #image{
     padding-left: 35%;
 }
+#image1{
+  padding-left: 35%;
+}
 h2{
     color: aliceblue;
     font-size: 180%;
@@ -45,7 +48,7 @@ p{
 .column1 {
     float: left;
     width: 45%;
-    margin-top:5%;
+    margin-top:6%;
     padding: 10px;
     height: 350px; /* Should be removed. Only for demonstration */
   }
@@ -71,11 +74,32 @@ p{
       height: 250px;
 
     }
+    .column1{
+      height: 200%;
+    }
+    
     .row:after{
       content: "";
     display: table;
     clear: both;
     }
+    #image1{
+      margin-top:100%;
+      width: 200%
+
+    }
+    #image{
+      width: 200%;
+    }
+    #arrow{
+      color: aliceblue;
+      margin-left:90%;
+      margin-top:40%;
+      transition: margin-left 0.5s;
+    } 
+    #arrow:hover {
+      margin-left: 91%;
+    }  
   }
 /* navigation bar */
 
