@@ -26,9 +26,11 @@ a{
 } 
 #image{
     padding-left: 35%;
+    width: auto;
 }
 #image1{
   padding-left: 35%;
+  width: auto;
 }
 h2{
     color: aliceblue;
