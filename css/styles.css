@@ -43,9 +43,10 @@ body {
 .mobile-menu {
   display:block;
   width:100%;
+  font-family:'Homenaje', sans-serif; 
 
 line-height: 1.6em;
-font-weight: 400;
+font-weight: 900;
 width:100%;
 text-align:center;
 	position: relative;
@@ -74,14 +75,15 @@ text-align:center;
 .mobile-menu li a {
 	display:block;
 	min-width:140px;
-	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 150%;
+	font-family: 'Homenaje', sans-serif;
 	color: #fff;
   text-transform:uppercase;
 
 	text-decoration: none;
   margin-left:-5px;
-  padding: 10px 0;  
+  /* padding: 10px 0;   */
 -webkit-transition: all 0.4s ease 0s;
 -moz-transition: all 0.4s ease 0s;
 -ms-transition: all 0.4s ease 0s;
