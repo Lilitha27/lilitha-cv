@@ -20,19 +20,19 @@ function showSlides() {
   setTimeout(showSlides, 9000); // Change image every 9 seconds
 }
 // arrow animation
-const $icon = document.querySelector('.icon');
-const $arrow = document.querySelector('.arrow');
+// const $icon = document.querySelector('.icon');
+// const $arrow = document.querySelector('.arrow');
 
-$icon.onclick = () => {
-  $arrow.animate([
-    {left: '0'},
-    {left: '10px'},
-    {left: '0'}
-  ],{
-    duration: 700,
-    iterations: Infinity
-  });
-}
+// $icon.onclick = () => {
+//   $arrow.animate([
+//     {left: '0'},
+//     {left: '10px'},
+//     {left: '0'}
+//   ],{
+//     duration: 700,
+//     iterations: Infinity
+//   });
+// }
 
 // navigation bar
 function myFunction() {

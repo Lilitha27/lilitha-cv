@@ -5,3 +5,4 @@ When you apply for a job you need to show the hiring manager what skills you hav
 i used html, css and javascript .
 i also used images to beautify my cv .
 
+All you need is an access to internet in order for you to be able to view my online cv
