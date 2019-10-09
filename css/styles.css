@@ -32,161 +32,96 @@ padding-bottom: 70%;
   #arrow:hover {
     margin-left: 91%;
   }
-/* nav bar */
-*{
-  margin:0;
-  padding:0;
-}
-body {
-	font-family:  'Homenaje', sans-serif;
-  font-size:16px;
-}
-.mobile-menu {
-  display:block;
-  width:100%;
-  font-family:'Homenaje', sans-serif; 
-
-line-height: 1.6em;
-font-weight: 900;
-width:100%;
-text-align:center;
-	position: relative;
-  margin:0 auto;
-  margin-left: 20%;
-}
-/*Strip the ul of padding and list styling*/
-.mobile-menu ul {
-	list-style-type:none;
-  margin: 0 auto;
-  padding-left:0;
-  text-align:center;
-  width:100%;
-  position: absolute;
-
-}
-
-/*Create a horizontal list with spacing*/
-.mobile-menu li {
-	display:inline-block;
-	/*float: left;
-	margin-right: 1px;*/
-}
-
-/*Style for menu links*/
-.mobile-menu li a {
-	display:block;
-  min-width:140px;
-  margin-top:10%;
-  text-align: center;
-  font-size: 150%;
-	font-family: 'Homenaje', sans-serif;
-	color: #fff;
-  text-transform:uppercase;
-
-	text-decoration: none;
-  margin-left:-5px;
-  /* padding: 10px 0;   */
--webkit-transition: all 0.4s ease 0s;
--moz-transition: all 0.4s ease 0s;
--ms-transition: all 0.4s ease 0s;
--o-transition: all 0.4s ease 0s;
-transition: all 0.4s ease 0s;
-}
-
-/*Hover state for top level links*/
-.mobile-menu li:hover a {
-	color: #4db3ff;
-  background-color:#ccddee;
-}
-
-/*Style for dropdown links*/
-.mobile-menu li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-.mobile-menu li:hover .mobile-menu ul a:hover {
-color: #2f3036;
-}
-
-/*Hide dropdown links until they are needed*/
-.mobile-menu li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-.mobile-menu li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-.mobile-menu li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-
-/*Style 'show menu' label button and hide it by default*/
-.mobile-menu .show-menu {
-	text-decoration: none;
-	color: #fff;
-
-	text-align: center;
-	padding: 10px 15px;
-	display: none;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.mobile-menu .show-menu span{
-   padding-left: 35px;
-}
-
-/*Hide checkbox*/
-.mobile-menu input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-.mobile-menu input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-
-/*Responsive Styles*/
-
-@media screen and (max-width : 800px){
-  .mobile-menu .lines {
-    border-bottom: 15px double #f8f8f8; 
-    border-top: 5px solid #f8f8f8; 
-    content:"";
-    height: 5px; 
-    width:20px;
-    padding-right:15px;
-  float: right;
-}
-	/*Make dropdown links appear inline*/
-	.mobile-menu ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	.mobile-menu li {
-		margin-bottom: 1px;
-	}
-	/*Make all menu links full width*/
-	.mobile-menu ul li, .mobile-menu li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	.mobile-menu .show-menu {
-		display:block;
-	}
-}
+  /* navbar */
+  .nav {
+     height: 50px;
+     width: 100%;
+     font-family: 'Homenaje', sans-serif;
+     /* background-color:#CA9CFF; */
+     position: relative;
+   }
+   
+   .nav > .nav-header {
+     display: inline;
+   }
+   
+   .nav > .nav-header > .nav-title {
+     display: inline-block;
+     font-size: 22px;
+     color: #fff;
+     padding: 10px 10px 10px 10px;
+   }
+   
+   .nav > .nav-btn {
+     display: none;
+   }
+   
+   .nav > .nav-links {
+     display: inline;
+     float: right;
+     font-size: 18px;
+   }
+   
+   .nav > .nav-links > a {
+     display: inline-block;
+     padding: 13px 10px 13px 10px;
+     text-decoration: none;
+     color: #efefef;
+   }
+   
+   .nav > .nav-links > a:hover {
+     background-color: rgba(0, 0, 0, 0.3);
+   }
+   
+   .nav > #nav-check {
+     display: none;
+   }
+   
+   @media (max-width:600px) {
+     .nav > .nav-btn {
+       display: inline-block;
+       position: absolute;
+       right: 0px;
+       top: 0px;
+     }
+     .nav > .nav-btn > label {
+       display: inline-block;
+       width: 50px;
+       height: 50px;
+       padding: 13px;
+     }
+     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+       background-color: rgba(0, 0, 0, 0.3);
+     }
+     .nav > .nav-btn > label > span {
+       display: block;
+       width: 25px;
+       height: 10px;
+       border-top: 2px solid #eee;
+     }
+     .nav > .nav-links {
+       position: absolute;
+       display: block;
+       width: 100%;
+       background-color: #333;
+       height: 0px;
+       transition: all 0.3s ease-in;
+       overflow-y: hidden;
+       top: 50px;
+       left: 0px;
+     }
+     .nav > .nav-links > a {
+       display: block;
+       width: 100%;
+     }
+     .nav > #nav-check:not(:checked) ~ .nav-links {
+       height: 0px;
+     }
+     .nav > #nav-check:checked ~ .nav-links {
+       height: calc(100vh - 50px);
+       overflow-y: auto;
+     }
+   }
 .button{
   margin-left:18%;
   margin-top:2%;
@@ -208,7 +143,7 @@ color: #2f3036;
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  height: 800px;
+  height: 720px;
   position: relative;
   margin: 0%;
 }
@@ -217,14 +152,14 @@ a{
   text-decoration-line:none;
 }
 h2 {
-    padding-top: 20%;
-    padding-left: 40%;
+    padding-top: 10%;
+    padding-left:40%;
     font-family: 'Homenaje', sans-serif;
     font-size:350%;
     color: aliceblue ;
     }
 h4{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 35%;
     font-family: 'Homenaje', sans-serif;
     font-size:350%;
@@ -236,17 +171,18 @@ h4{
     padding-left: 40%;
     font-family: 'Homenaje', sans-serif;
     font-size: 150%;
+    padding-bottom:2%;
     color: rgb(240, 248, 255 ,0.6) ; 
 }
 h3{
-    padding-top: 20%;
+    padding-top: 10%;
   padding-left: 40%;
   font-family: 'Homenaje', sans-serif;
   font-size:350%;
   color: aliceblue ; 
 }
 #connect{
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     padding-left: 17%;
     font-family: 'Homenaje', sans-serif;
     font-size: 150%;

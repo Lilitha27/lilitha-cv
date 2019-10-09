@@ -64,7 +64,7 @@ text-decoration-line: none;
 #arrow{
 color: aliceblue;
 margin-left:90%;
-margin-top:35%;
+margin-top:14%;
 transition: margin-left 0.5s;
 } 
 #arrow:hover {
@@ -313,7 +313,7 @@ a{
 #arrow{
   color: aliceblue;
   margin-left:90%;
-  margin-top:35%;
+  margin-top:%;
 } 
 #image{
     padding-left: 35%;
